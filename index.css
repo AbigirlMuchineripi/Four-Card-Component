@@ -173,10 +173,11 @@ img{
 }
 
 /*TABLET & DESKTOP VIEW*/
-@media screen and (min-width:1200px) {
+@media screen and (min-width:992px) {
 .main-card__body{ 
-    padding: 5rem 10.3125rem ;    
-    width: 100%;
+    padding: 5rem 10.3125rem ; 
+    max-width: 100%;   
+    width: 1440px;
     height: 992px;    
 }
 .main-card__header{ 
@@ -203,7 +204,8 @@ width: 540px;
 height: 50px;
 }
 .main-card__section-div{
-  width: 100%;
+  max-width: 100%;
+  width: 1110px;
   height: 530px; 
   margin-top:4rem ;  
   gap: 30px;  
