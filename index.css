@@ -174,17 +174,16 @@ img{
 
 /*TABLET & DESKTOP VIEW*/
 @media screen and (min-width:768px) {
-.main-card__body{ 
-    padding: 5rem 10.3125rem ; 
-    max-width: 100%;   
+  .main-card__body{ 
+    padding: 5rem 10.3125rem 5rem 10.3125rem;     
     width: 1440px;
-    height: 992px;    
+    height: 992px;  
+  
 }
 .main-card__header{ 
     width: 540px;
     height: 168px;   
-    margin: 0rem auto;
-  
+    margin: 0rem auto;  
 }
 .main-card__title{
   width: 444px;
@@ -203,13 +202,13 @@ letter-spacing:0.25px ;
 width: 540px;
 height: 50px;
 }
-.main-card__section-div{
-  max-width: 100%;
+.main-card__section-div{ 
   width: 1110px;
   height: 530px; 
   margin-top:4rem ;  
   gap: 30px;  
   flex-flow: row;  
+ 
 }
 .main-card__section-first__child {
  margin-top: 8.75rem;
