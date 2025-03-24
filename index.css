@@ -201,7 +201,7 @@ img{
   .main-card__section-div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 30px;
     width: 100%;
     height: auto;
     margin-top: 3rem;
@@ -229,8 +229,8 @@ img{
   .main-card__body{ 
     padding: 5rem 2rem;
     width: 100%;
-    max-width: 1200px;
-    height: auto;
+    max-width: 1440px;
+    height: 922px;
     margin: 0 auto;
   }
   
